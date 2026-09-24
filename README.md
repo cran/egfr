@@ -4,12 +4,13 @@
 [![R-CMD-check](https://github.com/mhovd/egfr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mhovd/egfr/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/mhovd/egfr/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/mhovd/egfr/actions/workflows/test-coverage.yaml)
 [![Codecov test coverage](https://codecov.io/gh/mhovd/egfr/graph/badge.svg)](https://app.codecov.io/gh/mhovd/egfr)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670286.svg)](https://doi.org/10.5281/zenodo.21670286)
 <!-- badges: end -->
 
 
 **egfr** is a vectorised R toolkit for estimating glomerular filtration
 rate (eGFR) and creatinine clearance from serum creatinine, cystatin C, or
-both. It implements 20 validated adult, paediatric, and neonatal equations,
+both. It implements 19 validated adult, paediatric, and neonatal equations,
 plus helpers for body surface area, KDIGO CKD staging, and unit conversion.
 
 The package is inspired by the
@@ -86,7 +87,6 @@ ckd_stage(egfr_ckdepi_cr_2021(1.0, 50, "female"))
 | `egfr_ckid_u25_cr()`          | CKiD U25 2021            | creatinine |
 | `egfr_ckid_u25_cys()`         | CKiD U25 2021            | cystatin C |
 | `egfr_ckid_u25_cr_cys()`      | CKiD U25 2021            | both |
-| `egfr_ckid_u25_cr_extended()` | CKiD U25 extended (to 30)| creatinine |
 | `egfr_capa()`                 | CAPA 2014                | cystatin C |
 | `egfr_neonatal()`             | Neonatal 2022            | creatinine |
 
